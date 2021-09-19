@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dashboard</title>
+
+</head>
+<body>
+    <!-- Start container -->
+    <main class="container">
+        <!-- Start navgation -->
+        <nav>
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="icon"><i class="fa fa-coffee" id="logo" aria-hidden="true"></i></span>
+                            <span class="title"><h3>Coffee Corporation</h3></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""> 
+                        <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                            <span class="title">Clientes</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                        <span class="icon"><i class="fa fa-comment" aria-hidden="true"></i></span>
+                        <span class="title">Mensagens</span>
+                        </a>
+                    </li>
+                    <li>
+                    <li>
+                        <a href="">
+                        <span class="icon"><i class="fa fa-question-circle" aria-hidden="true"></i></span>
+                        <span class="title">Ajuda</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="icon"><i class="fa fa-sliders" aria-hidden="true"></i></span>
+                            <span class="title">Configurações</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="icon"><i class="fa fa-key" aria-hidden="true"></i></span>
+                            <span class="title">Senha</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="icon"><i class="fa fa-sign-out" aria-hidden="true"></i></span>
+                            <span class="title">Sair</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- And Navigation -->
+    <!-- Start main -->
+    <div class="main">
+        <div class="topbar">
+            <div class="toggle" onclick="toggleMenu();"></div>
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Pesquise">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </label>
+                </div>
+
+                <div class="user">
+                    <img src="user.png" alt="">
+                </div>
+        </div>
+
+        <!-- Start Cards -->
+        <div class="cardBox">
+            <!--  -->
+            <div class="card">
+                <div>
+                    <div class="numbers">1,544</div>
+                    <div class="cardName">Visualizações diárias</div>
+                </div>
+                <div class="iconBox">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+            </div>
+            <!--  -->
+            <div class="card">
+                <div>
+                    <div class="numbers">1,544</div>
+                    <div class="cardName">Visualizações diárias</div>
+                </div>
+                <div class="iconBox">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+            </div>
+            <!--  -->
+            <div class="card">
+                <div>
+                    <div class="numbers">1,544</div>
+                    <div class="cardName">Visualizações diárias</div>
+                </div>
+                <div class="iconBox">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+            </div>
+            <!--  -->
+            <div class="card">
+                <div>
+                    <div class="numbers">1,544</div>
+                    <div class="cardName">Visualizações diárias</div>
+                </div>
+                <div class="iconBox">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <!-- And cards -->
+
+        <!-- Start details -->
+        <div class="details">
+            <!--  -->
+            <div class="recentOrders">
+                <div class="cardHeader">
+                    <h2>Ordens Recentes</h2>
+                    <a href="#" class="btn">Ver tudo</a>
+                </div>
+                <!--  -->
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Nome</td>
+                            <td>Preço</td>
+                            <td>Pagamento</td>
+                            <td>Status</td>
+                        </tr>
+                    </thead>
+                    <!--  -->
+                    <tbody>
+                        <tr>
+                            <td>Produto X</td>
+                            <td>R$ 1.200,24</td>
+                            <td>Pago</td>
+                            <td><span class="status delivered">Delivery</span></td>
+                        </tr>
+                        <tr>
+                            <td>Produto X</td>
+                            <td>R$ 1.200,24</td>
+                            <td>Pago</td>
+                            <td><span class="status delivered">Delivery</span></td>
+                        </tr>
+                        <tr>
+                            <td>Produto X</td>
+                            <td>R$ 1.200,24</td>
+                            <td>Pago</td>
+                            <td><span class="status return">Delivery</span></td>
+                        </tr>
+                        <tr>
+                            <td>Produto X</td>
+                            <td>R$ 1.200,24</td>
+                            <td>Pago</td>
+                            <td><span class="status inprogress">Delivery</span></td>
+                        </tr>
+                        <tr>
+                            <td>Produto X</td>
+                            <td>R$ 1.200,24</td>
+                            <td>Pago</td>
+                            <td><span class="status delivered">Delivery</span></td>
+                        </tr>
+                        <tr>
+                            <td>Produto X</td>
+                            <td>R$ 1.200,24</td>
+                            <td>Pago</td>
+                            <td><span class="status delivered">Delivery</span></td>
+                        </tr>
+                        <tr>
+                            <td>Produto X</td>
+                            <td>R$ 1.200,24</td>
+                            <td>Pago</td>
+                            <td><span class="status return">Delivery</span></td>
+                        </tr>
+                        <tr>
+                            <td>Produto X</td>
+                            <td>R$ 1.200,24</td>
+                            <td>Pago</td>
+                            <td><span class="status inprogress">Delivery</span></td>
+                        </tr>
+                    </tbody>
+                    <!--  -->
+                </table>
+                <!--  -->
+            </div>
+            <!--  -->
+            <div class="recentCustomers">
+                <div class="cardHeader">
+                    <h2>Clientes recentes</h2>
+                </div>
+
+            </div>
+        </div>
+        <!-- And details -->
+
+    </div>
+    <!-- And main -->
+    </main>
+    <!-- And container -->
+
+    
+</body>
+<script src="script.js"></script>
+</html>
